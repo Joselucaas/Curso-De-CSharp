@@ -1,0 +1,18 @@
+﻿<Window x:Class="OláMundo_WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OláMundo_WPF_"
+        mc:Ignorable="d"
+        Title="Primeiro Programa em C#" Height="242" Width="414">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="465*"/>
+            <ColumnDefinition Width="61*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Clique em mim" HorizontalAlignment="Left" Height="50" Margin="85,120,0,0" VerticalAlignment="Top" Width="230" FontSize="20" FlowDirection="RightToLeft" FontFamily="Normal" Click="Button_Click"/>
+        <Label x:Name="lblMsg" Grid.ColumnSpan="2" Content="" Height="40" Margin="20,10,0,0" VerticalAlignment="Top" Width="370" HorizontalAlignment="Left" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Emoji"/>
+
+    </Grid>
+</Window>
