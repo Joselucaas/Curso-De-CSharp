@@ -27,7 +27,7 @@ namespace OláMundo_WPF_
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            lblMsg.Content = "Olá, Mundo!!"; //No modo WPF utiliza o "Contente" ao inves do "write"
+            lblMsg.Content = "Olá, Mundo!!"; //No modo WPF utiliza o "Content" ao inves do "write"
         }
     }
 }
