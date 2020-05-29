@@ -10,6 +10,10 @@ namespace Variáveis
     {
         static void Main(string[] args)
         {
+            /*A palavra var não especifica o tipo da variavel, ela faz com que o sistema escolha o tipo que vai ser, 
+             porém nem sempre é bom pois o sistema pode escolher um tipo que gasta muito espaço na memoria do sistema 
+            que está sendo rodado o programa.*/
+
             byte idade = 25;
             ushort publico = 45_239;
             float media = 9.8f; // Sempre que usar o tipo float tem que colocar o f no final do número.
