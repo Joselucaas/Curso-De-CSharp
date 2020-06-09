@@ -23,7 +23,7 @@ namespace Exercício04
             float.TryParse(txtNum.Text, out num);
             lbl2.Text = ($"Você digitou o valor {num:N3}");
 
-            int n1 = (int)num; // Pega somente a parte inteira do número
+            int n1 = (int) num; // Pega somente a parte inteira do número
             lbl3.Text = ($"A parte inteira é {n1}");
 
             int n2 = Convert.ToInt16(num);// Arredonda o número para o número inteiro mais próximo
